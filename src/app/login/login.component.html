@@ -1,0 +1,22 @@
+<div class="container w-50 mt-5 border shadow p-5">
+  <div class="alert alert-danger" role="alert" *ngIf="isNewUser">
+    Please register First
+   </div>
+   <div class="alert alert-success" role="alert" *ngIf="!isNewUser">
+     Login Success
+    </div>
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+      <h2>Login Form</h2>
+        <div class="mb-3">
+          <label for="id1" class="form-label">Email</label>
+          <input type="email" class="form-control" id="id1" aria-describedby="emailHelp" formControlName="email">
+        </div>
+        <div class="mb-3">
+          <label for="id2" class="form-label">Password</label>
+          <input type="password" class="form-control" id="id2" formControlName="password">
+        </div>
+      
+        <button type="submit" class="btn btn-primary">Login</button><br><br>
+        <button type="submit" class="btn btn-primary" routerLink="/sign-up">Sign Up</button>
+      </form>
+</div>

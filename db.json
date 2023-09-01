@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "name": "ABC",
+      "mobileNo": "1234567",
+      "email": "abc@gmail.com",
+      "password": "abc123",
+      "id": 1
+    },
+    {
+      "name": "Sakshi",
+      "mobileNo": "1234567890",
+      "email": "sakshi@gmail.com",
+      "password": "welcome",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "pname": "tv",
+      "category": "electronic",
+      "price": "20000",
+      "stock": "23",
+      "id": 1
+    },
+    {
+      "pname": "table",
+      "category": "furniture",
+      "price": "500",
+      "stock": "23",
+      "id": 2
+    },
+    {
+      "pname": "ac",
+      "category": "electronic",
+      "price": "80000",
+      "stock": "65",
+      "id": 4
+    },
+    {
+      "pname": "tv",
+      "category": "electronic",
+      "price": "8000",
+      "stock": "65",
+      "id": 5
+    }
+  ]
+}
